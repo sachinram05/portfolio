@@ -117,7 +117,7 @@ const HomeScreen = () => {
           </Box>
         </Flex>
         <Flex wrap="wrap" mt="1rem">
-          <SocialIcon url="https://github.com/sachinram12345">
+          <SocialIcon url="https://github.com/sachinram05">
             <Icon as={FiGithub} fontSize="20px" color="whiteAlpha.900" />
           </SocialIcon>
           <SocialIcon url="https://www.instagram.com/sach_in.005/">
