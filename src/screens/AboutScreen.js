@@ -1,8 +1,8 @@
 import { Link, Box, Grid, Flex, Icon, Text, Image } from "@chakra-ui/react";
 import { BlockHead, Header } from "../components/TitleHeader";
 import { TextIcon, SkillIcon } from "../components/TextIcon";
-import {sachinimage} from '../images/sachinImages.jpeg'
-import {sachincv} from '../images/SACHIN(cv).png'
+import sachinimage from '../images/sachinImages.jpeg'
+import sachincv from '../images/SACHIN(cv).png'
 import {
   FaMapMarkedAlt,
   FaGamepad,
