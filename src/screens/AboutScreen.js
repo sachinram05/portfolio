@@ -1,7 +1,7 @@
 import { Link, Box, Grid, Flex, Icon, Text, Image } from "@chakra-ui/react";
 import { BlockHead, Header } from "../components/TitleHeader";
 import { TextIcon, SkillIcon } from "../components/TextIcon";
-import sachinimage from '../images/sachinImages.jpeg'
+import sachinImage from "../images/sachinImage.jpeg"
 import sachincv from '../images/SACHIN(cv).png'
 import {
   FaMapMarkedAlt,
@@ -69,7 +69,7 @@ const AboutScreen = () => {
             h="15rem"
             w="15rem"
             borderRadius="50%"
-            src={sachinimage}
+            src={sachinImage}
             alt="sachin"
             mr={{ sm: "0", base: "0", md: "2rem", lg: "2rem" }}
             mb={{ sm: "2rem", base: "2rem", md: "0", lg: "0" }}
