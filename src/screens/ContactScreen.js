@@ -90,7 +90,7 @@ const ContactScreen = () => {
             justifyContent="center"
             w="105%"
           >
-            <TextIcon icon={FaGithub} children="sachinram12345"></TextIcon>
+            <TextIcon icon={FaGithub} children="sachinram05"></TextIcon>
 
             <TextIcon icon={HiOutlineMail}>
               <a href="mailto:sachinram4968@gmail.com">

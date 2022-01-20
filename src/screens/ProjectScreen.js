@@ -10,7 +10,7 @@ import {
   ListIcon,
   ListItem,
 } from "@chakra-ui/react";
-import rst1 from "../images/rst1.png";
+import rststoreimage from '../images/rststore.png';
 import { BiRightArrow, BiCheckCircle } from "react-icons/bi";
 import { Header } from "../components/TitleHeader";
 import { PageAnimation } from "../components/PageAnimations";
@@ -41,7 +41,7 @@ const projectScreen = () => {
           ml={{ sm: "0", base: "0", md: "0", lg: "3rem" }}
         >
           <Flex direction="row" w="80vw">
-            <Image src={rst1} objectFit="cover" w="full" />
+            <Image src={rststoreimage} objectFit="cover" w="full" />
           </Flex>
 
           <Box
@@ -72,7 +72,7 @@ const projectScreen = () => {
             </Text>
             <Box mt="3.5">
               <Link
-                href="https://www.google.com"
+                href="http://rststore33.herokuapp.com/"
                 color="white"
                 textTransform="uppercase"
                 _hover={{
@@ -85,7 +85,7 @@ const projectScreen = () => {
               </Link>
 
               <Link
-                href="https://www.google.com"
+                href="https://github.com/sachinram05/rststore"
                 color="white"
                 ml="3"
                 textTransform="uppercase"
