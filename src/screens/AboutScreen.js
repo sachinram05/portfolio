@@ -1,7 +1,8 @@
 import { Link, Box, Grid, Flex, Icon, Text, Image } from "@chakra-ui/react";
-import sachin from "../images/73497927_402576244012673_5181495794829623296_n.jpg";
 import { BlockHead, Header } from "../components/TitleHeader";
 import { TextIcon, SkillIcon } from "../components/TextIcon";
+import {sachinimage} from '../images/sachinImages.jpeg'
+import {sachincv} from '../images/SACHIN(cv).png'
 import {
   FaMapMarkedAlt,
   FaGamepad,
@@ -42,7 +43,7 @@ const AboutScreen = () => {
               color: "primary.100",
             }}
             fontSize="1rem"
-            href="www.google.com"
+            href={sachincv}
             color="white"
             display={{ sm: "none", base: "none", md: "block", lg: "block" }}
             textDecoration="none"
@@ -68,7 +69,7 @@ const AboutScreen = () => {
             h="15rem"
             w="15rem"
             borderRadius="50%"
-            src={sachin}
+            src={sachinimage}
             alt="sachin"
             mr={{ sm: "0", base: "0", md: "2rem", lg: "2rem" }}
             mb={{ sm: "2rem", base: "2rem", md: "0", lg: "0" }}
