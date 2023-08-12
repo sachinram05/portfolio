@@ -2,7 +2,7 @@ import { Link, Box, Grid, Flex, Icon, Text, Image } from "@chakra-ui/react";
 import { BlockHead, Header } from "../components/TitleHeader";
 import { TextIcon, SkillIcon } from "../components/TextIcon";
 import sachinImage from "../images/sachinImage.jpeg"
-import sachincv from '../images/sachin_CV.pdf'
+import sachincv from '../images/SachinResume.pdf'
 import {
   FaMapMarkedAlt,
   FaGamepad,
@@ -17,7 +17,7 @@ import {
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
 import { BiCycling } from "react-icons/bi";
 import { PageAnimation } from "../components/PageAnimations";
-import { SiRedux, SiMongodb} from "react-icons/si";
+import { SiRedux, SiMongodb, SiFlutter, SiReactivex, SiDart, SiMaterialdesign} from "react-icons/si";
 
 const AboutScreen = () => {
   return (
@@ -88,7 +88,7 @@ const AboutScreen = () => {
               despite my age, I have a lot of experience in programming . I am
               someone who is very passionate about Programming and coding
               especially Web Development related stuff. I like to work in HTML,
-              CSS, JavaScript, React, NextJS, Node, Express, MongoDB etc.
+              CSS, JavaScript, React, NextJS, Node, Express, MongoDB,Flutter,ReactNative etc.
               Furthermore, I am looking for numerous opportunities which can
               help me to uplift my sphere of knowledge and meanwhile gain work
               experience. Besides that, I love to do a lot of things in my free
@@ -188,6 +188,10 @@ const AboutScreen = () => {
             <SkillIcon icon={FaGitAlt} title="Git" />
             <SkillIcon icon={SiRedux} title="Redux" />
             <SkillIcon icon={SiMongodb} title="MongoDB" />
+            <SkillIcon icon={SiDart} title="Dart" />
+            <SkillIcon icon={SiMaterialdesign} title="Material UI" />
+            <SkillIcon icon={SiFlutter} title="Flutter" />
+            <SkillIcon icon={SiReactivex} title="React Native" />
           </Grid>
         </Box>
       </Flex>
